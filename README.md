@@ -46,7 +46,7 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 | | | | | | | | NC | red |
 | | | | | | | IN+ | COM | |
 | | | | | | | IN- | | black |
-| | 5V | VIN | | | PWR+ | OUT+ | | black |
+| | 5V | VIN | | | PWR+ | OUT+ | | |
 | | | | + | | OUT+ | | | |
 | | | | - | | OUT- | | | |
 
