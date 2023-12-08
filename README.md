@@ -40,8 +40,7 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 | p5 |   |   |   |   | Content Cell  | Content Cell  | Content Cell  |
 
 
-## Piano (Volume/Pitch) - BLE (Volume/Preset) - Values for keys
-
+## Piano (Volume/Pitch) & BLE - Values for keys
 
 
 
