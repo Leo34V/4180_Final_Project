@@ -3,7 +3,7 @@
 ## Introduction
 
 This project is based on the previous idea of developing a piano using MPR121 touch keypad. Proposed improvements include adding a Adafruit bluetooth module for additional input, adding a more systematic power supply and utilizing RTOS to further eliminate the delay between the user input and the speaker output.<br />
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Leo34V/4180_Final_Project/blob/main/IMG_0257.JPG))
+![alt text]((https://github.com/Leo34V/4180_Final_Project/blob/main/IMG_0257.JPG))
 
 ## Components usage
 
