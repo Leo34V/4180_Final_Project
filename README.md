@@ -23,6 +23,10 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 ### Power
 1 relay terminal with input signal connecting to the mbed Vout (high) was instrumented to control the power input from the 7.4V Li-ion battery. The power trace goes into a 5V voltage regulator, supplying power for BLE, LCD, Speaker.
 
+
+![](https://github.com/Leo34V/4180_Final_Project/blob/main/WechatIMG1347.jpg)
+![](https://github.com/Leo34V/4180_Final_Project/blob/main/WechatIMG1349.jpg)
+
 ## Connections
 
 | Mbed  | Color LCD | Adafruit BLE | Speaker | MPR121 | TPA2005D1 | Voltage regulator | Relay |
