@@ -31,19 +31,25 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 
 | Mbed  | Color LCD | Adafruit BLE | Speaker | MPR121 | TPA2005D1 | Voltage regulator | Relay | 7.4V Battery |
 | --- | --- | ---| --- | --- | ---| --- | --- | --- |
-| Vout |   |   |   | VCC | | | | |
-| gnd | gnd  | CTS&GND | | GND | PWR- | Vout- | DC- | |
+| Vout |   |   |   | VCC | | | IN1&DC+ | |
+| gnd | gnd  | CTS&GND | | GND | PWR- | OUT- | DC- | |
 | p28 |   | RXI  |   |   | | | | |
-| p27 |   | TXO  |   |   | Content Cell  | Content Cell  | Content Cell  | |
-| p22 |   |   |  |   | Content Cell  | Content Cell  | Content Cell  | |
-| p21 |   |   |  | IRQ | Content Cell  | Content Cell  | Content Cell  | |
-| p14 | Tx  |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
-| p13 | Rx  |   |   |  | Content Cell  | Content Cell  | Content Cell  | |
-| p11 | Reset  |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
-| p10 |   |   |  | SCL(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  | |
-| p9 |   |   |   | SDA(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  | |
-| p5 |   |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
-| | | | | | | | NC| 7.4V |
+| p27 |   | TXO  |   |   | | | | |
+| p22 |   |   |  |   | IN+ | | | |
+| p21 |   |   |  | IRQ | | | | |
+| p14 | Tx  |   |   |   | | | | |
+| p13 | Rx  |   |   |  | |  |  | |
+| p11 | Reset  |   |   |   | |  |  | |
+| p10 |   |   |  | SCL(Pull-Up 4.7k)  | |  | | |
+| p9 |   |   |   | SDA(Pull-Up 4.7k)  |  |  |  | |
+| p5 |   |   |   |   | PWR S  |  | | |
+| | | | | | | | NC | red |
+| | | | | | | IN+ | COM | |
+| | | | | | | IN- | | black |
+| | 5V | VIN | | | PWR+ | OUT+ | | black |
+| | | | + | | OUT+ | | | |
+| | | | - | | OUT- | | | |
+
 
 
 ## Piano (Volume/Pitch) & BLE - Values for keys
