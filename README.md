@@ -4,7 +4,7 @@
 
 This project is based on the previous idea of developing a piano using MPR121 touch keypad. Proposed improvements include adding a Adafruit bluetooth module for additional input, adding a more systematic power supply and utilizing RTOS to further eliminate the delay between the user input and the speaker output.<br />
 ![alt text](https://github.com/Leo34V/4180_Final_Project/blob/main/IMG_0257.JPG?raw=true)
-## Components usage
+## Components used
 
 Mbed NXP LPC1768 <br />
 MPR121 Capacitive Touch Sensor Breakout Boar <br />
