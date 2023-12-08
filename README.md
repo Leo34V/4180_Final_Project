@@ -29,20 +29,21 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 
 ## Connections
 
-| Mbed  | Color LCD | Adafruit BLE | Speaker | MPR121 | TPA2005D1 | Voltage regulator | Relay |
-| --- | --- | ---| --- | --- | ---| --- | --- |
-| Vout |   |   |   |  Content Cell  | Content Cell  | Content Cell  |
-| gnd | gnd  | CTS  |   |  | Content Cell  | Content Cell  | Content Cell  |
-| p28 |   | RXI  |   |   | Content Cell  | Content Cell  | Content Cell  |
-| p27 |   | TXO  |   |   | Content Cell  | Content Cell  | Content Cell  |
-| p22 |   |   |  |   | Content Cell  | Content Cell  | Content Cell  |
-| p21 |   |   |  | IRQ | Content Cell  | Content Cell  | Content Cell  |
-| p14 | Tx  |   |   |   | Content Cell  | Content Cell  | Content Cell  |
-| p13 | Rx  |   |   |  | Content Cell  | Content Cell  | Content Cell  |
-| p11 | Reset  |   |   |   | Content Cell  | Content Cell  | Content Cell  |
-| p10 |   |   |  | SCL(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  |
-| p9 |   |   |   | SDA(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  |
-| p5 |   |   |   |   | Content Cell  | Content Cell  | Content Cell  |
+| Mbed  | Color LCD | Adafruit BLE | Speaker | MPR121 | TPA2005D1 | Voltage regulator | Relay | 7.4V Battery |
+| --- | --- | ---| --- | --- | ---| --- | --- | --- |
+| Vout |   |   |   | VCC | | | | |
+| gnd | gnd  | CTS&GND | | GND | PWR- | Vout- | DC- | |
+| p28 |   | RXI  |   |   | | | | |
+| p27 |   | TXO  |   |   | Content Cell  | Content Cell  | Content Cell  | |
+| p22 |   |   |  |   | Content Cell  | Content Cell  | Content Cell  | |
+| p21 |   |   |  | IRQ | Content Cell  | Content Cell  | Content Cell  | |
+| p14 | Tx  |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
+| p13 | Rx  |   |   |  | Content Cell  | Content Cell  | Content Cell  | |
+| p11 | Reset  |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
+| p10 |   |   |  | SCL(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  | |
+| p9 |   |   |   | SDA(Pull-Up 4.7k)  | Content Cell  | Content Cell  | Content Cell  | |
+| p5 |   |   |   |   | Content Cell  | Content Cell  | Content Cell  | |
+| | | | | | | | NC| 7.4V |
 
 
 ## Piano (Volume/Pitch) & BLE - Values for keys
