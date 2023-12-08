@@ -1,4 +1,4 @@
-# 4180_Final_Project
+# Pianist
 
 ## Introduction
 
@@ -40,23 +40,12 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 | p5 |   |   |   |   | Content Cell  | Content Cell  | Content Cell  |
 
 
-<!-- ROADMAP -->
-## Roadmap
+## Piano (Volume/Pitch) - BLE (Volume/Preset) - Values for keys
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ## Demo
 
-[![Watch the video]((https://youtu.be/k_Nj4KE3edo)
+[![Watch the video](https://github.com/Leo34V/4180_Final_Project/blob/main/IMG_0258.jpg)](https://youtu.be/k_Nj4KE3edo)
