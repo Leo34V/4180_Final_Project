@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This project is based on the previous idea of developing a piano using MPR121 touch keypad. Proposed improvements include adding a Adafruit bluetooth module for additional input, adding a more systematic power supply and utilizing RTOS to further eliminate the delay between the user input and the speaker output.<br />
+This project is based on the previous idea of developing a piano using MPR121 touch keypad. Proposed improvements include adding a Adafruit bluetooth module for additional input, adding a more systematic power supply and utilizing RTOS to further eliminate the delay between the user input and the speaker output. <br />
+
 ![alt text](https://github.com/Leo34V/4180_Final_Project/blob/main/IMG_0257.JPG?raw=true)
 ## Components used
 
@@ -42,8 +43,7 @@ The MPR121 touch keypad controls the pitch of the speaker/piano. Hardware interr
 
 ## Piano (Volume/Pitch) & BLE - Values for keys
 
-
-
+![alt text](https://github.com/Leo34V/4180_Final_Project/blob/main/WechatIMG1350.jpg)
 
 ## Demo
 
