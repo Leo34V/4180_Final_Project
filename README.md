@@ -59,4 +59,4 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 ## Demo
 
-[![Watch the video](https://youtu.be/k_Nj4KE3edo)
+[![Watch the video]((https://youtu.be/k_Nj4KE3edo)
